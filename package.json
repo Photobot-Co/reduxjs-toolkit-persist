@@ -1,11 +1,11 @@
 {
-  "name": "reduxjs-toolkit-persist",
+  "name": "@photobot/reduxjs-toolkit-persist",
   "version": "7.2.1",
   "description": "persist and rehydrate redux stores",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",
-  "repository": "ryanwillis/reduxjs-toolkit-persist",
+  "repository": "Photobot-Co/reduxjs-toolkit-persist",
   "files": [
     "src",
     "es",
@@ -35,7 +35,7 @@
   },
   "author": "",
   "license": "MIT",
-  "homepage": "https://github.com/ryanwillis/reduxjs-toolkit-persist#readme",
+  "homepage": "https://github.com/Photobot-Co/reduxjs-toolkit-persist#readme",
   "ava": {
     "files": [
       "tests/**/*.spec.ts"
@@ -76,6 +76,6 @@
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
-    "@reduxjs/toolkit": "^1.6.1"
+    "@reduxjs/toolkit": ">=1.6.1"
   }
 }
