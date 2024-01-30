@@ -29,7 +29,7 @@ function hasLocalStorage() {
   }
 
   try {
-    let storage = self.localStorage
+    const storage = self.localStorage
     const testKey = `reduxjs-toolkit-persist localStorage test`
     storage.setItem(testKey, 'test')
     storage.getItem(testKey)
@@ -118,7 +118,7 @@ function getStoredStateV4(v4Config: V4Config) {
     const restoredState: KeyAccessState = {}
     let completionCount = 0
 
-    storage.getAllKeys((err: any, allKeys:string[] = []) => {
+    storage.getAllKeys?.((err: any, allKeys:string[] = []) => {
       if (err) {
         if (process.env.NODE_ENV !== 'production')
           console.warn(
